@@ -33,8 +33,7 @@ This project is a dynamic CSV analysis tool that integrates **Streamlit** for re
 - **`agents.yaml`**  
   Specifies the configuration for each agent in the CrewAI system, including:
   - Agent roles and responsibilities.
-  - Model parameters and settings for execution.
-  - Verbosity and task-specific behavior settings.
+
  
 
 ## 🚀 Usage

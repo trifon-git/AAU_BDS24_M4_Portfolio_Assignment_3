@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "your-project-name"  # Ensure to use the actual project name
+version = "0.1.0"
+description = "A brief description of your project"
+authors = ["Your Name <your.email@example.com>"]
+
+# Correct path to source folder
+packages = [
+    { include = "project/src" } 
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+crewai = "0.1.32"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

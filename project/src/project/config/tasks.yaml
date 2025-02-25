@@ -1,0 +1,38 @@
+dataset_inference_task:
+  description: >
+    Analyze the dataset to determine its structure, context, and potential applications.
+    - Examine column names and categorize data types (numerical, categorical, etc.).
+    - Sample data to identify patterns, relationships, and anomalies.
+    - Provide an intuitive explanation of the dataset’s purpose and real-world applications.
+  expected_output: >
+    A high-level dataset summary, including:
+    - List of column names with inferred data types.
+    - Sample data insights and detected anomalies.
+    - Recommendations for potential use cases.
+  agent: "dataset_inference_specialist"
+
+data_cleaning_task:
+  description: >
+    Dynamically provide suggestions for cleaning the dataset, focusing on:
+    - Identifying potential strategies for handling missing values (imputation or removal).
+    - Detecting incorrect data types and converting them appropriately.
+    - Highlighting potential outliers and inconsistencies.
+    - Structuring the dataset for analysis.
+  expected_output: >
+    A list of recommended data cleaning strategies, including:
+    - Proposed handling of missing values.
+    - Suggestions for standardizing data types.
+    - Observations about potential outliers.
+  agent: "data_cleaning_specialist"
+
+report_generation_task:
+  description: >
+    Compile all findings into a structured markdown report.
+    - Include dataset insights, data cleaning steps, and statistical summaries.
+    - Provide a final summary with key takeaways and recommendations.
+  expected_output: >
+    A detailed markdown report (`report.md`) containing:
+    - Dataset overview and inferred context.
+    - Data cleaning insights and applied transformations.
+    - Statistical summaries and interpretations.
+  agent: "reporting_analyst"

@@ -32,7 +32,7 @@ This project is a dynamic CSV analysis tool that integrates **Streamlit** for re
   - Report generation
 
 ## 🚀 Usage
-Find the .env file and add your OpenAPI key (you can generate one [here](https://platform.openai.com/)
+Find the .env file and add your OpenAPI key (you can generate one [here](https://platform.openai.com/) )
 
 Load the poetry environment
 ```

@@ -48,7 +48,7 @@ streamlit run app.py
 ```
 Upload your csv and you are ready to go
 
-Project Collaborators
+## Project Collaborators
 
 Lauris Piziks- AAU BDS24
 
